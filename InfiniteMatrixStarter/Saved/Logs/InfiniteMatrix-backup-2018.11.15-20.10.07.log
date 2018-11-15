@@ -1,0 +1,161 @@
+﻿Log file open, 11/15/18 20:09:12
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: InfiniteMatrix
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.250853
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundMod
+LogPluginManager: Mounting plugin SoundUtilities
+LogPluginManager: Mounting plugin SoundVisualizations
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin eXiSoundVis
+LogStreaming: Display: Took  0.181s to configure plugins.
+LogInit: Warning: Incompatible or missing module: eXiSoundVis
+Running A:/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/TemoZa/Desktop/InfiniteMatrixStarter/InfiniteMatrix.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+@progress push 5%
+@progress pop
+Building 3 actions with 6 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 33%
+  [1/3] Module.eXiSoundVis.cpp
+  C:\Users\TemoZa\Desktop\InfiniteMatrixStarter\Plugins\eXiSoundVis-master\Source\eXiSoundVis\Private\AudioDecompressWorker.cpp(83): error C2248: USoundWave::SampleRate: ?????????? ???????? ? protected ??, ?????????? ? ????? "USoundWave"
+  A:\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\Sound/SoundWave.h(272): note:  ?. ???????? "USoundWave::SampleRate"
+  A:\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Public\AudioDevice.h(44): note:  ?. ???????? "USoundWave"
+  C:\Users\TemoZa\Desktop\InfiniteMatrixStarter\Plugins\eXiSoundVis-master\Source\eXiSoundVis\Private\AudioDecompressWorker.cpp(91): error C2248: USoundWave::SampleRate: ?????????? ???????? ? protected ??, ?????????? ? ????? "USoundWave"
+  A:\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\Sound/SoundWave.h(272): note:  ?. ???????? "USoundWave::SampleRate"
+  A:\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Public\AudioDevice.h(44): note:  ?. ???????? "USoundWave"
+  C:\Users\TemoZa\Desktop\InfiniteMatrixStarter\Plugins\eXiSoundVis-master\Source\eXiSoundVis\Private\SoundVisComponent.cpp(120): error C2248: USoundWave::SampleRate: ?????????? ???????? ? protected ??, ?????????? ? ????? "USoundWave"
+  A:\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\Sound/SoundWave.h(272): note:  ?. ???????? "USoundWave::SampleRate"
+  A:\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Public\AudioDevice.h(44): note:  ?. ???????? "USoundWave"
+  C:\Users\TemoZa\Desktop\InfiniteMatrixStarter\Plugins\eXiSoundVis-master\Source\eXiSoundVis\Private\SoundVisComponent.cpp(169): error C2248: USoundWave::SampleRate: ?????????? ???????? ? protected ??, ?????????? ? ????? "USoundWave"
+  A:\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\Sound/SoundWave.h(272): note:  ?. ???????? "USoundWave::SampleRate"
+  A:\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Public\AudioDevice.h(44): note:  ?. ???????? "USoundWave"
+  C:\Users\TemoZa\Desktop\InfiniteMatrixStarter\Plugins\eXiSoundVis-master\Source\eXiSoundVis\Private\SoundVisComponent.cpp(413): warning C4996: 'FPaths::GameDir': FPaths::GameDir() has been superseded by FPaths::ProjectDir(). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  A:\Unreal Engine\UE_4.20\Engine\Source\Runtime\Core\Public\Misc/Paths.h(124): note:  ?. ???????? "FPaths::GameDir"
+  C:\Users\TemoZa\Desktop\InfiniteMatrixStarter\Plugins\eXiSoundVis-master\Source\eXiSoundVis\Private\SoundVisComponent.cpp(608): error C2248: USoundWave::SampleRate: ?????????? ???????? ? protected ??, ?????????? ? ????? "USoundWave"
+  A:\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\Sound/SoundWave.h(272): note:  ?. ???????? "USoundWave::SampleRate"
+  A:\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Public\AudioDevice.h(44): note:  ?. ???????? "USoundWave"
+  C:\Users\TemoZa\Desktop\InfiniteMatrixStarter\Plugins\eXiSoundVis-master\Source\eXiSoundVis\Private\SoundVisComponent.cpp(610): error C2248: USoundWave::SampleRate: ?????????? ???????? ? protected ??, ?????????? ? ????? "USoundWave"
+  A:\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\Sound/SoundWave.h(272): note:  ?. ???????? "USoundWave::SampleRate"
+  A:\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Public\AudioDevice.h(44): note:  ?. ???????? "USoundWave"
+  C:\Users\TemoZa\Desktop\InfiniteMatrixStarter\Plugins\eXiSoundVis-master\Source\eXiSoundVis\Private\SoundVisComponent.cpp(638): error C2248: USoundWave::SampleRate: ?????????? ???????? ? protected ??, ?????????? ? ????? "USoundWave"
+  A:\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\Sound/SoundWave.h(272): note:  ?. ???????? "USoundWave::SampleRate"
+  A:\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Public\AudioDevice.h(44): note:  ?. ???????? "USoundWave"
+  C:\Users\TemoZa\Desktop\InfiniteMatrixStarter\Plugins\eXiSoundVis-master\Source\eXiSoundVis\Private\SoundVisComponent.cpp(639): error C2248: USoundWave::SampleRate: ?????????? ???????? ? protected ??, ?????????? ? ????? "USoundWave"
+  A:\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\Sound/SoundWave.h(272): note:  ?. ???????? "USoundWave::SampleRate"
+  A:\Unreal Engine\UE_4.20\Engine\Source\Runtime\Engine\Public\AudioDevice.h(44): note:  ?. ???????? "USoundWave"
+ERROR: UBT ERROR: Failed to produce item: C:\Users\TemoZa\Desktop\InfiniteMatrixStarter\Plugins\eXiSoundVis-master\Binaries\Win64\UE4Editor-eXiSoundVis.dll
+       (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+Total build time: 13,70 seconds (Parallel executor: 0,00 seconds)
+LogInit: Warning: Still incompatible or missing module: eXiSoundVis
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
+LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+LogModuleManager: Shutting down and abandoning module Landscape (26)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+LogModuleManager: Shutting down and abandoning module Renderer (16)
+LogModuleManager: Shutting down and abandoning module Engine (14)
+LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+LogModuleManager: Shutting down and abandoning module PakFile (2)
+LogExit: Exiting.
+Log file closed, 11/15/18 20:10:01
